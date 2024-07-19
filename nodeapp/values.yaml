@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: pradeeprai87/my-node-app:latest
+  repository: pradeeprai87/my-node-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   #tag: ""
@@ -15,7 +15,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 env:
-  APP_VERSION: ac560c531fb8221c7d6759e38e1b4ea50f45314d
+  APP_VERSION: 1.0.0
 
 serviceAccount:
   # Specifies whether a service account should be created
